@@ -33,3 +33,9 @@ $ . kc868.sh show_inactive_relays
 7
 8
 ```
+
+ENVIRONMENT VARIABLES:
+* KC868_DEBUG - values 1 or empty - Show debug info
+* KC868_IP - values IP4 address or auto - When auto then will search device at available network interfaces (need to install nmap utility)
+* KC868_PORT - commonly 4196, but is support to change
+
